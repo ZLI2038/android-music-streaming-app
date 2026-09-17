@@ -1,0 +1,33 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+    id 'org.jetbrains.kotlin.plugin.serialization'
+    id 'application'
+}
+
+group = 'com.laioffer'
+version = '1.0.0'
+
+def ktorVersion = '2.1.3'
+
+dependencies {
+    implementation "io.ktor:ktor-server-core-jvm:${ktorVersion}"
+    implementation "io.ktor:ktor-server-netty-jvm:${ktorVersion}"
+    implementation "io.ktor:ktor-server-content-negotiation-jvm:${ktorVersion}"
+    implementation "io.ktor:ktor-serialization-kotlinx-json-jvm:${ktorVersion}"
+    implementation 'ch.qos.logback:logback-classic:1.2.11'
+
+    testImplementation "io.ktor:ktor-server-tests-jvm:${ktorVersion}"
+    testImplementation 'org.jetbrains.kotlin:kotlin-test-junit:1.7.0'
+}
+
+application {
+    mainClass.set('com.laioffer.ApplicationKt')
+}
+
+tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+    kotlinOptions.jvmTarget = '1.8'
+}
+
+test {
+    useJUnit()
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "section_title": "Featured Albums",
+    "albums": [
+      {
+        "id": 0,
+        "album": "Still Fantasy",
+        "year": "2006",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/d/d1/Stillfantasy.jpg",
+        "artists": "Jay Chou",
+        "description": "Still Fantasy is an album by Jay Chou."
+      },
+      {
+        "id": 1,
+        "album": "Hexagonal",
+        "year": "2008",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/6/6d/Leessang-Hexagonal_%28cover%29.jpg",
+        "artists": "Lesssang",
+        "description": "Leessang (Korean: 리쌍) was a South Korean hip hop duo, composed of Kang Hee-gun (Gary or Garie) and Gil Seong-joon (Gil)"
+      }
+    ]
+  }
+]
