@@ -1,0 +1,407 @@
+{
+  "cycles": 20,
+  "transitions": [
+    {
+      "cycle": 1,
+      "route": "home_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 1,
+      "route": "playlist_to_favorites",
+      "passed": true
+    },
+    {
+      "cycle": 1,
+      "route": "favorites_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 1,
+      "route": "playlist_to_home",
+      "passed": true
+    },
+    {
+      "cycle": 2,
+      "route": "home_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 2,
+      "route": "playlist_to_favorites",
+      "passed": true
+    },
+    {
+      "cycle": 2,
+      "route": "favorites_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 2,
+      "route": "playlist_to_home",
+      "passed": true
+    },
+    {
+      "cycle": 3,
+      "route": "home_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 3,
+      "route": "playlist_to_favorites",
+      "passed": true
+    },
+    {
+      "cycle": 3,
+      "route": "favorites_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 3,
+      "route": "playlist_to_home",
+      "passed": true
+    },
+    {
+      "cycle": 4,
+      "route": "home_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 4,
+      "route": "playlist_to_favorites",
+      "passed": true
+    },
+    {
+      "cycle": 4,
+      "route": "favorites_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 4,
+      "route": "playlist_to_home",
+      "passed": true
+    },
+    {
+      "cycle": 5,
+      "route": "home_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 5,
+      "route": "playlist_to_favorites",
+      "passed": true
+    },
+    {
+      "cycle": 5,
+      "route": "favorites_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 5,
+      "route": "playlist_to_home",
+      "passed": true
+    },
+    {
+      "cycle": 6,
+      "route": "home_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 6,
+      "route": "playlist_to_favorites",
+      "passed": true
+    },
+    {
+      "cycle": 6,
+      "route": "favorites_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 6,
+      "route": "playlist_to_home",
+      "passed": true
+    },
+    {
+      "cycle": 7,
+      "route": "home_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 7,
+      "route": "playlist_to_favorites",
+      "passed": true
+    },
+    {
+      "cycle": 7,
+      "route": "favorites_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 7,
+      "route": "playlist_to_home",
+      "passed": true
+    },
+    {
+      "cycle": 8,
+      "route": "home_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 8,
+      "route": "playlist_to_favorites",
+      "passed": true
+    },
+    {
+      "cycle": 8,
+      "route": "favorites_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 8,
+      "route": "playlist_to_home",
+      "passed": true
+    },
+    {
+      "cycle": 9,
+      "route": "home_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 9,
+      "route": "playlist_to_favorites",
+      "passed": true
+    },
+    {
+      "cycle": 9,
+      "route": "favorites_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 9,
+      "route": "playlist_to_home",
+      "passed": true
+    },
+    {
+      "cycle": 10,
+      "route": "home_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 10,
+      "route": "playlist_to_favorites",
+      "passed": true
+    },
+    {
+      "cycle": 10,
+      "route": "favorites_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 10,
+      "route": "playlist_to_home",
+      "passed": true
+    },
+    {
+      "cycle": 11,
+      "route": "home_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 11,
+      "route": "playlist_to_favorites",
+      "passed": true
+    },
+    {
+      "cycle": 11,
+      "route": "favorites_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 11,
+      "route": "playlist_to_home",
+      "passed": true
+    },
+    {
+      "cycle": 12,
+      "route": "home_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 12,
+      "route": "playlist_to_favorites",
+      "passed": true
+    },
+    {
+      "cycle": 12,
+      "route": "favorites_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 12,
+      "route": "playlist_to_home",
+      "passed": true
+    },
+    {
+      "cycle": 13,
+      "route": "home_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 13,
+      "route": "playlist_to_favorites",
+      "passed": true
+    },
+    {
+      "cycle": 13,
+      "route": "favorites_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 13,
+      "route": "playlist_to_home",
+      "passed": true
+    },
+    {
+      "cycle": 14,
+      "route": "home_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 14,
+      "route": "playlist_to_favorites",
+      "passed": true
+    },
+    {
+      "cycle": 14,
+      "route": "favorites_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 14,
+      "route": "playlist_to_home",
+      "passed": true
+    },
+    {
+      "cycle": 15,
+      "route": "home_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 15,
+      "route": "playlist_to_favorites",
+      "passed": true
+    },
+    {
+      "cycle": 15,
+      "route": "favorites_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 15,
+      "route": "playlist_to_home",
+      "passed": true
+    },
+    {
+      "cycle": 16,
+      "route": "home_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 16,
+      "route": "playlist_to_favorites",
+      "passed": true
+    },
+    {
+      "cycle": 16,
+      "route": "favorites_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 16,
+      "route": "playlist_to_home",
+      "passed": true
+    },
+    {
+      "cycle": 17,
+      "route": "home_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 17,
+      "route": "playlist_to_favorites",
+      "passed": true
+    },
+    {
+      "cycle": 17,
+      "route": "favorites_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 17,
+      "route": "playlist_to_home",
+      "passed": true
+    },
+    {
+      "cycle": 18,
+      "route": "home_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 18,
+      "route": "playlist_to_favorites",
+      "passed": true
+    },
+    {
+      "cycle": 18,
+      "route": "favorites_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 18,
+      "route": "playlist_to_home",
+      "passed": true
+    },
+    {
+      "cycle": 19,
+      "route": "home_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 19,
+      "route": "playlist_to_favorites",
+      "passed": true
+    },
+    {
+      "cycle": 19,
+      "route": "favorites_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 19,
+      "route": "playlist_to_home",
+      "passed": true
+    },
+    {
+      "cycle": 20,
+      "route": "home_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 20,
+      "route": "playlist_to_favorites",
+      "passed": true
+    },
+    {
+      "cycle": 20,
+      "route": "favorites_to_playlist",
+      "passed": true
+    },
+    {
+      "cycle": 20,
+      "route": "playlist_to_home",
+      "passed": true
+    }
+  ],
+  "screen_types": 3,
+  "measurement": "actual Compose album clicks and Espresso bottom-navigation clicks; destination content asserted visible each time"
+}

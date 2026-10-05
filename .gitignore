@@ -1,0 +1,34 @@
+*.apk
+*.aab
+*.class
+.gradle/
+**/build/
+local.properties
+.idea/
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local documents, resumes, generated reports, and private notes
+output/
+*.docx
+*.pdf
+*.zip
+.codex/
+.agents/
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+key.properties
+*.pem
+*.key
+
+# Editor and OS metadata
+.vscode/
+*.iml
+Thumbs.db

@@ -1,0 +1,111 @@
+{
+  "date_local": "2026-09-08",
+  "environment": {
+    "host_cpu": "Apple M2 Pro",
+    "host_ram_gib": 16,
+    "java": "17.0.11",
+    "android": "14 / API 34",
+    "device": "Pixel 3a AVD, arm64-v8a",
+    "display": "1080x2220, 440 dpi",
+    "build": "debug",
+    "gpu": "swangle_indirect",
+    "backend_transport": "HTTP/1.1 localhost:18080",
+    "android_backend": "10.0.2.2:8080"
+  },
+  "navigation": {
+    "cycles": 20,
+    "transitions_passed": 80,
+    "transitions_attempted": 80,
+    "screen_types": 3
+  },
+  "backend": {
+    "requests": 30000,
+    "concurrency": 20,
+    "errors": 0,
+    "rounds": [
+      {
+        "round": 1,
+        "requests": 10000,
+        "concurrency": 20,
+        "errors": 0,
+        "seconds": 1.047296167,
+        "requests_per_second": 9548.39740189749,
+        "p50_ms": 1.807625,
+        "p95_ms": 4.158292,
+        "p99_ms": 5.520959
+      },
+      {
+        "round": 2,
+        "requests": 10000,
+        "concurrency": 20,
+        "errors": 0,
+        "seconds": 0.81384475,
+        "requests_per_second": 12287.355788680827,
+        "p50_ms": 1.379417,
+        "p95_ms": 3.071709,
+        "p99_ms": 4.501875
+      },
+      {
+        "round": 3,
+        "requests": 10000,
+        "concurrency": 20,
+        "errors": 0,
+        "seconds": 0.688772,
+        "requests_per_second": 14518.592509567752,
+        "p50_ms": 1.168042,
+        "p95_ms": 2.538042,
+        "p99_ms": 3.817917
+      }
+    ],
+    "pooled": {
+      "n": 30000,
+      "p50_ms": 1.421459,
+      "p95_ms": 3.431416,
+      "p99_ms": 5.085458,
+      "max_ms": 22.209542
+    },
+    "worst_round_p95_ms": 4.158292
+  },
+  "persistence": {
+    "rounds": 3,
+    "records_per_round": 1000,
+    "restored_per_round": [
+      1000,
+      1000,
+      1000
+    ],
+    "all_fields_equal": true,
+    "insert_ms": [
+      582.765126,
+      791.2015,
+      634.789875
+    ],
+    "reopen_read_ms": [
+      38.34725,
+      17.053167,
+      16.0625
+    ]
+  },
+  "state_sync": {
+    "n": 300,
+    "p50_ms": 9.829458,
+    "p95_ms": 17.113416,
+    "p99_ms": 24.4165,
+    "max_ms": 29.351791
+  },
+  "playback_start": {
+    "n": 90,
+    "p50_ms": 151.584459,
+    "p95_ms": 412.264,
+    "p99_ms": 1058.850833,
+    "max_ms": 1058.850833
+  },
+  "seek": {
+    "count": 90,
+    "failures": 0,
+    "maximum_reported_position_error_ms": 0
+  },
+  "unique_tests_passed": 8,
+  "production_source_unchanged": true,
+  "excluded_navigation_attempt": "First navigation attempt blocked by Android System UI ANR dialog; retained failure log; full 80-transition rerun passed after dismissal."
+}
